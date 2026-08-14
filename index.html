@@ -10,7 +10,7 @@
     body {
       text-align: left;
       color: black;
-	  width: 800px;
+	  width: 840px;
 	  margin-top: 50px;
       margin-bottom: 100px;
       margin-left: auto;
@@ -23,6 +23,18 @@
 	h3 {
         color: #000080; 
     }
+
+    .block {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 1000;
+        padding: 10px 0;
+    }
+
+    h2 {
+        scroll-margin-top: 60px;
+    }
   </style>
 </head>
 
@@ -31,9 +43,11 @@
 <a id="top"></a>
 <font size="+2">
 <div class="block" align="center">
-	<td> <a href="#research">Research</a> |</td>
-	<td> <a href="#publication">Publications</a> | </td>
-	<td> <a href="#service">Services</a>  </td>
+    <a href="#news">News</a> |
+    <a href="#research">Research</a> |
+    <a href="#publication">Publications</a> |
+    <a href="#people">People</a> |
+    <a href="#service">Services</a>
 </div>
 </font>
 <br><br>
@@ -71,34 +85,71 @@ Biography
 
 
 <p>	
-Yanjun Pan received her M.S. degree and Ph.D. in Electrical and Computer Engineering from the University of Arizona, USA, in 2018 and 2021, respectively. She joined the Department of Electrical Engineering and Computer Science at the University of Arkansas as an Assistant Professor in 2022. Yanjun Pan's current research interests include cybersecurity, wireless communications, wireless sensing, and network optimization, with emphases on wireless security, 5G-and-beyond communications, mmWave sensing, and cross-layer optimization.
-
+Yanjun Pan is an Assistant Professor in the Department of Electrical Engineering and Computer Science at the University of Arkansas. She received her Ph.D. degree in Electrical and Computer Engineering from the University of Arizona. Yanjun Pan's current research interests include cybersecurity, wireless communications, wireless sensing, and network optimization, with an emphasis on wireless security, 5G-and-beyond communications, mmWave sensing, and cross-layer optimization.
 </p>
 
 <p>
-<font color=red>I am looking for Ph.D. and M.S. students who are committed to research.</font> If you are interested, please send me your CV/resume, transcripts, GRE and TOFEL scores, and publications (if any) in one email. Visiting scholars/students are also welcomed.
+<font color=red>I am looking for Ph.D. and M.S. students who are committed to research.</font> If you are interested, please send me your CV/resume, transcripts, GRE and TOEFL scores, and publications (if any) in one email. Visiting scholars/students are also welcome.
 </p>
 <hr/>
 
+<h2 id="news">
+News
+</h2>
+<ul>
+  	<li>
+        [08/2026] Paper on environment-agnostic RF fingerprinting has been accepted to IEEE CNS 2026. Congrats to Bimal!
+  	</li>
+	
+  	<li>
+        [07/2026] Our multi-session RF fingerprinting dataset has been publicly released. Check it out at <a href="https://github.com/bimal-tech/Dataset" target="_blank">[Dataset]</a>!
+  	</li>
+
+    <li>
+        [05/2026] New NSF Award on zero trust based security training for O-RAN. Thanks, NSF!
+    </li>
+</ul>
+
+<!-- <p><a href="#top">Back to top</a></p> -->
+
+<hr/>
+
 <h2 id="research">
-Sponsored Projects
+Research
 </h2>
 
-<p>
-National Science Foundation, "SaTC: CORE: Small: Towards Untraceable Communications in a Ubiquitous Environment with RF Fingerprint Anonymization" (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2350255&HistoricalAwards=false">CNS 2350255</a>), 10/01/2024 - 09/30/2027, $456,905, PI (Co-PI: Jingxian Wu).
-<a href="https://github.com/bimal-tech/Dataset"
+<h3>
+Ongoing Projects
+</h3>
+
+<ul>
+	<li>
+		<a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2612540">Collaborative Research: CyberTraining: Pilot: A Zero Trust-Based Security Training Program in Open RAN Cyberinfrastructure</a>, National Science Foundation, $94,998, 10/01/2026 - 09/30/2028, PI (Co-PI: Qinghua Li).
+	</li>
+
+	<li>
+		<a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2350255">SaTC: CORE: Small: Towards Untraceable Communications in a Ubiquitous Environment with RF Fingerprint Anonymization</a>, National Science Foundation, $456,905, 10/01/2024 - 09/30/2027, PI (Co-PI: Jingxian Wu).
+		<a href="https://github.com/bimal-tech/Dataset"
    target="_blank"
    rel="noopener noreferrer">[Dataset]</a>
-</p>
+	</li>
+</ul>
 
-<p>
-University of Arkansas, College of Engineering, Engineering Research and Innovation Seed Funding, "Artificially Intelligent Secure Communications by Anonymizing RF Fingerprints", 07/01/2022 - 06/30/2023, $24,742, PI (Co-PI: Jingxian Wu).
-</p>
-<p><a href="#top">Back to top</a></p>
+<h3>
+Completed Projects
+</h3>
+
+<ul>
+	<li>
+		Artificially Intelligent Secure Communications by Anonymizing RF Fingerprints, University of Arkansas, $24,742, 07/01/2022 - 06/30/2023, PI (Co-PI: Jingxian Wu).
+	</li>
+</ul>
+<!-- <p><a href="#top">Back to top</a></p> -->
 
 <hr/>
 <h2 id="publication">
 Publications
+</h2>
 
 <h3>
 Book Chapters
@@ -118,6 +169,27 @@ Journal Papers
 </h3>
 
 <ol>
+	<li>
+		CP-free ODDM over general doubly-selective fading channels<br>
+		 Yanjun Pan, Jeremiah Wimer, Jingxian Wu, Hai Lin, and Jinhong Yuan <br>
+		 <em>IEEE Transactions on Wireless Communications</em> (TWC), accepted, Dec. 2025.
+		 <p></p>
+	</li>
+	
+	<li>
+		Optimum Scheduling of Truck-Based Mobile Energy Couriers (MEC) Using Deep Deterministic Policy Gradient<br>
+		 Yaze Li, Jingxian Wu, and Yanjun Pan <br>
+		 <em>Intelligent and Converged Networks </em>, accepted, Sept. 2025.
+		 <p></p>
+	</li>
+	
+	<li>
+		SideSense: Robust Physiological Motion Detection via mmWave Joint Communication and Sensing Systems With Multiple Beams<br>
+		 Mohammad Shadman Ishrak, Jannatun Noor Sameera, Alvin Yang, Yanjun Pan, Yao Zheng, Olga Borić-Lubecke, and Victor M. Lubecke <br>
+		 <em>IEEE Transactions on Microwave Theory and Techniques </em> (T-MTT), accepted, July 2025.
+		 <p></p>
+	</li>
+	
 <li>
 	Harvesting Physical-layer Randomness in Millimeter Wave Bands<br>
 	 Ziqi Xu, Jingcheng Li, Yanjun Pan, Ming Li, Loukas Lazos <br>
@@ -174,6 +246,41 @@ Journal Papers
 </h3>
 
 <ol>
+	
+	<li>
+		Lightweight and Robust RF Fingerprinting for IoT Device Identification <br>
+		Amaya Westman-Forbes, Bimal Adhikari, Yanjun Pan, and Jingxian Wu <br>
+		<em>2026 IEEE Military Communications Conference</em> (IEEE MILCOM), National Capital Region, USA, Oct. 12 - 16, 2026.
+		<p></p>
+	</li>
+	
+	<li>
+		Environment-Agnostic RF Fingerprinting through Protocol-Compliant IQ Imbalance Estimation <br>
+		Bimal Adhikari, Xinyu Cao, Shangqing Zhao, Jingxian Wu, and Yanjun Pan <br>
+		<em>2026 IEEE Conference on Communications and Network Security</em> (IEEE CNS), Newark, Delaware, Sept. 14 - 17, 2026.
+		<p></p>
+	</li>
+	
+	<li>
+		Towards Robust LLM-Enabled Fuzzing: Enhancing Test Generation Prompts via Execution Feedback <br>
+		Marie Louise Uwibambe, Qinghua Li, Yanjun Pan <br>
+		<em>2026 IEEE International Conference on Cyber Security and Resilience</em> (IEEE CSR), Lisbon, Portugal, Aug. 3 - 5, 2026.
+		<p></p>
+	</li>
+	
+	<li>
+		CP-Free ODDM: Modeling and design <br>
+		Yanjun Pan, Jeremiah Wimer, Jingxian Wu, Hai Lin, and Jinhong Yuan <br>
+		<em>2026 IEEE International Conference on Communications</em> (IEEE ICC), Signal Processing for Communications Symposium, Glasgow, Scotland, UK, May 24 - 28, 2026.
+		<p></p>
+	</li>
+	
+	<li>
+		An Adversarial-Driven Experimental Study on Deep Learning for RF Fingerprinting <br>
+		Xinyu Cao*, Bimal Adhikari*, Shangqing Zhao, Jingxian Wu, and Yanjun Pan (*: co-first authors)<br>
+		<em>2025 IEEE Military Communications Conference</em> (IEEE MILCOM), Los Angeles, California, Oct. 6 - 10, 2025.
+		<p></p>
+	</li>
 
 <li>
 	Low Complexity OTFS Detection with a Delay-Doppler Domain CMC-MMSE Receiver <br>
@@ -247,7 +354,31 @@ Journal Papers
 
 </ol>
 
-<p><a href="#top">Back to top</a></p>
+<!-- <p><a href="#top">Back to top</a></p> -->
+</h2>
+<hr/>
+
+</h2>
+<h2 id="people">
+People
+</h2>
+
+<h3>
+Students
+</h3>
+<ul>
+<li> Bimal Adhikari, Ph.D. student, Fall 2024 - Present </li>
+<li> Mohammad Abdul Mobin, Ph.D. student, Spring 2023 - Present, co-advised with Dr. Jingxian Wu </li>
+</ul>
+
+<h3>
+Alumni
+</h3>
+<ul>
+<li> Marie Louise Uwibambe, Ph.D., May 2026, co-advised with Dr. Qinghua Li </li>
+<li> Jozef Dusenka, M.S., May 2025 </li>
+</ul>
+
 </h2>
 <hr/>
 
@@ -260,7 +391,7 @@ Professional Activities
 Conference Organizing Committee
 </h3>
 <ul>
-<li> Publicity Chair, IEEE MILCOM 2025 </li>
+<li> Publicity Chair, IEEE MILCOM 2025, 2026</li>
 <li> Symposium Co-chair, Signal Processing for Communications, IEEE ICC 2024 </li>
 </ul>
 
@@ -268,16 +399,19 @@ Conference Organizing Committee
 TPC Member
 </h3>
 <ul>
-<li> IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS), 2025, 2024, 2023, 2022 </li>
-<li> IEEE Internatinal Conference on Communications and Network Security (CNS), 2025, 2024, 2023, 2022 </li>
-<li> IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2025, 2023 </li>
-<li> International Conference on Computer Communications and Networks (ICCCN), 2024, 2023 </li>
-<li> ACM SIGCOMM Workshop on 5G and Beyond Network Measurements, Modeling, and Use Cases (5G-MeMU), 2022 </li>
+	<li> IEEE Consumer Communications & Networking Conference (CCNC), 2027</li>
+	<li> IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), 2026 </li>
+	<li> IEEE International Conference on Sensing, Communication, and Networking (SECON), 2024, 2026 </li>
+	<li> IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS), 2022, 2023, 2024, 2025 </li>
+	<li> IEEE International Conference on Communications and Network Security (CNS), 2022, 2023, 2024, 2025, 2026 </li>
+	<li> IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2023, 2025 </li>
+	<li> International Conference on Computer Communications and Networks (ICCCN), 2023, 2024 </li>
+	<li> ACM SIGCOMM Workshop on 5G and Beyond Network Measurements, Modeling, and Use Cases (5G-MeMU), 2022 </li>
 </ul>
 
-<p><a href="#top">Back to top</a></p>
+<!-- <p><a href="#top">Back to top</a></p> -->
 
 <br>
-Last updated: July 2026
+Last updated: August 2026
 
 </body>
